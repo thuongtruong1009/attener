@@ -1,14 +1,14 @@
+import Providers from "@/common/components/Providers";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
-import Providers from "./common/components/Providers";
 import "./globals.css";
 
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Attener",
-  description: "Progressive promodo for your daily tasks",
+  description: "Progressive Pomodoro for your daily tasks",
 };
 
 export default function RootLayout({
